@@ -1,0 +1,120 @@
+{
+    "name": "ShipActions",
+    "maps": [
+        {
+            "name": "movement",
+            "id": "b3ad1e7d-06f5-419b-b96a-a9f037afba43",
+            "actions": [
+                {
+                    "name": "Up",
+                    "type": "Value",
+                    "id": "fbdfe8c3-1d20-41f9-93de-1fb56b0383d5",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Horizontal",
+                    "type": "Button",
+                    "id": "1b667181-6233-4fcf-b52c-e37ab4caa807",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Power",
+                    "type": "Button",
+                    "id": "5609feed-dcf9-4802-b424-7393fbb9e71b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "178812e6-a472-47d8-8e9a-43d2fb5dce36",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "Scale",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c4fddc1-466a-4c53-b3b6-8c111b37705b",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "Scale(factor=-1)",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bab4c69d-5637-47b8-b4e6-cfc9f82fbb7f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "Scale(factor=-1)",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ba81cba-53bd-4455-9808-31ec1d06c174",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fac0e0c5-f105-449c-9aea-d37b6b179ef3",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Power",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "shoot",
+            "id": "382aa23a-48db-4bec-a0f6-7416938a1aa9",
+            "actions": [
+                {
+                    "name": "Misil",
+                    "type": "Button",
+                    "id": "300409db-52f8-48a8-add9-d93a2b5905da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a4777c61-b6b1-42a0-acec-cfdec1b5e103",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Misil",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
